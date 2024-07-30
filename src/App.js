@@ -8,13 +8,13 @@ import React from "react";
 
 import Tutors from "./react_learning";
 // import Classes from "./react_learning";
-import ReactProjects from "./react_project";
+// import ReactProjects from "./react_project";
 
 function ReactLearning() {
   return    ( <div >
-              <Tutors />
+              <Tutors bootCamp="React Learning BootCamp2020" />
               {/* <Classes /> */}
-              <ReactProjects />
+              {/* <ReactProjects /> */}
             </div>
   );
 }

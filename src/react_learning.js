@@ -1,18 +1,19 @@
 import React from "react";
 
+import ReactProjects from "./react_project";
 
-
-function Tutors() {
+function Tutors(props) {
     return    ( <div >
                     <h1>Hello World</h1>
-                    <h2>Wellcome to React Learning classes:</h2>
-                    <p>Tutor to the course are:</p>
+                    <h2>Wellcome to {props.bootCamp}</h2>
+                    <p>Tutors in the {props.bootCamp} are</p>
                     <ul>
                     <li>Amir Pinger</li>
                     <li>Mohsin Khalid</li>
                     <li>Ameen Alam</li>
                     <li>Bashir Aziz</li>
-                    </ul>               
+                    </ul>
+                    <ReactProjects timePeriod="One Months" intern="Two Months" />               
               </div>
     );
   }
