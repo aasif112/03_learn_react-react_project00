@@ -10,6 +10,8 @@ function Dinner(props) {
                     <li><h3>{props.sweetDish}</h3></li>
                     <li><h3>{props.drinks}</h3></li>
             </ol>
+            <br />
+            <hr />
        
             
                 </div>);
