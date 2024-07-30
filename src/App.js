@@ -1,22 +1,15 @@
 import React from "react";
 
 
+import Dinner from "./dinner";
 
-
-
-
-
-import Tutors from "./react_learning";
-// import Classes from "./react_learning";
-import ReactProjects from "./react_project";
-
-function ReactLearning() {
+function App() {
   return    ( <div >
-              <Tutors />
-              {/* <Classes /> */}
-              <ReactProjects />
+              <Dinner  mainDish="Chiken Biryani"  sweetDish="Kheer"  drinks="Cold-Drinks" />
+              <Dinner  mainDish="Chiken Karhai"  sweetDish="Halwa"  drinks="Juice" />
+             
             </div>
   );
 }
 
-export default ReactLearning;
+export default App;
