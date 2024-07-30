@@ -3,6 +3,7 @@ import React from "react";
 
 import Dinner from "./dinner";
 
+// Component Manue is Parent of Component Dinner 
 function Manue() {
   return    ( <div >
               <Dinner day="Monday" mainDish="Chiken Biryani"  sweetDish="Kheer"  drinks="Cold-Drinks" />
