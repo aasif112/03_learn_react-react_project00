@@ -3,7 +3,7 @@ import React from "react";
 
 import Dinner from "./dinner";
 
-function App() {
+function Manue() {
   return    ( <div >
               <Dinner  mainDish="Chiken Biryani"  sweetDish="Kheer"  drinks="Cold-Drinks" />
               <Dinner  mainDish="Chiken Karhai"  sweetDish="Halwa"  drinks="Juice" />
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default Manue;
