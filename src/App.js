@@ -5,8 +5,9 @@ import Dinner from "./dinner";
 
 function Manue() {
   return    ( <div >
-              <Dinner  mainDish="Chiken Biryani"  sweetDish="Kheer"  drinks="Cold-Drinks" />
-              <Dinner  mainDish="Chiken Karhai"  sweetDish="Halwa"  drinks="Juice" />
+              <Dinner day="Monday" mainDish="Chiken Biryani"  sweetDish="Kheer"  drinks="Cold-Drinks" />
+              <Dinner day="Friday" mainDish="Chiken Karhai"  sweetDish="Halwa"  drinks="Juice" />
+              <Dinner day="Sunday" mainDish="Nan - Paya"  sweetDish="Jalebi"  drinks="Tea" />
              
             </div>
   );
