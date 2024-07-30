@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-function ReactProjects(props) {
+function Dinner(props) {
     return (<div>
             <h2>Today we are arranging a dinner: we serve  </h2>
                  <ol>
@@ -15,4 +15,4 @@ function ReactProjects(props) {
                 </div>);
 }
 
-export default ReactProjects;
+export default Dinner;
