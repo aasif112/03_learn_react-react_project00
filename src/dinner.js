@@ -4,11 +4,11 @@ import React from "react";
 
 function Dinner(props) {
     return (<div>
-            <h2>On {props.day} we are arranging a dinner: we serve  </h2>
+            <h3>On {props.day} we are arranging a dinner: we serve  </h3>
                  <ol>
-                    <li><h3>{props.mainDish}</h3></li>
-                    <li><h3>{props.sweetDish}</h3></li>
-                    <li><h3>{props.drinks}</h3></li>
+                    <li><h4>{props.mainDish}</h4></li>
+                    <li><h4>{props.sweetDish}</h4></li>
+                    <li><h4>{props.drinks}</h4></li>
             </ol>
             <br />
             <hr />
